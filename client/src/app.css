@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  width:100%;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login,
+.home{
+  width : 250px;
+  height : 300px;
+  border : 2px solid rgba(114, 114, 114, 0.582);
+  border-radius: 7px;
+  padding:20px;
+}
+
+.form{
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input{
+  height:30px;
+  border:none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+
+.submitbutton{
+width:150px;
+padding: 5px;
+border:none;
+border-radius: 5px;
+cursor: pointer;
+background-color: lightpink;
+color:whitesmoke;
+}
+
+.submitbutton:hover{
+  background-color: rgb(255, 119, 140);
+}
+
+.login{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button{
+    width:150px;
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: lightpink;
+    color:whitesmoke;
+}
+
+.button:hover{
+  background-color: rgb(255, 119, 140);
+}
+
+.success{
+font-size: 12px;
+color:rgb(133, 216, 51);
+}
+
+.error{
+  font-size: 12px;
+color:tomato;
+}
+
+.loggoutbutton{
+  width:150px;
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:whitesmoke;
+  background-color: thistle;
+  margin-top: 15px;
+}
+
+.loggoutbutton:hover{
+  background-color: rgb(212, 126, 212);
+}
